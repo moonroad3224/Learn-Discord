@@ -4,8 +4,9 @@ name: Publish articles
 on:
   push:
     branches:
-      - main
-      - master
+       - Fake # 仮で投稿停止
+#      - main
+#      - master
   workflow_dispatch:
 
 permissions:
